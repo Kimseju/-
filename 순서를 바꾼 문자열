@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class str_1104 {
+    public static void main(String[] args){
+        Scanner scan = new Scanner(System.in);
+        System.out.print("문자를 입력하세요: ");
+        String a = scan.nextLine();
+        System.out.print("문자를 입력하세요: ");
+        String b = scan.nextLine();
+        System.out.println(b + " " + a);
+    }
+}
